@@ -19,7 +19,7 @@ export default class Welcome extends React.Component{
                                         '  HACK.', 2000,
                                         '  INNOVATE.', 2000,
                                         '  CONNECT.', 2000,
-                                        'WELCOME TO PHARMAHACKS 2023', 2000,
+                                        'WELCOME TO PHARMAHACKS 2024', 2000,
                                     ]}
                     />
                 </div>
