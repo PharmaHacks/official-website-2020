@@ -1,32 +1,17 @@
 import React from 'react';
 import '../styles/accordion.css';
 
-export default class AccordionItem extends React.Component{
-    constructor(props) {
-        super(props)
-        this.toggleActive= this.toggleActive.bind(this);
+export default function AccordionItem(i, title, text, open, tog) {
+
+    const toggle = () => {
+        i.tog(i.i);
     }
 
-    state = {
-        active : false,
-    }
-
-    toggleActive() {
-        const curState = this.state.active;
-        console.log(this.state.active)
-        this.setState({ active: !curState });
-    }
-
-    render() {
-        return(
-            <>
-                <div className={this.state.active ? 'accordion-container-long': 'accordion-container-short'} onClick={this.toggleActive}>
-                    <div className="accordion-title">{this.props.title}</div>
-                    <div className={this.state.active ? 'accordion-text': 'accordion-text-hidden'}>
-                        {this.props.text}
-                    </div>
-                </div>
-            </>
-        )
-    }
+    return <div className={i.open ? 'accordion-container-long': 'accordion-container-short'} onClick={toggle}>
+        <div className="accordion-title">{i.title}</div>
+        <div className={i.open ? 'accordion-text': 'accordion-text-hidden'}>
+            {i.text}
+        </div>
+    </div>
 }
+

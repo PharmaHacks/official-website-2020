@@ -10,7 +10,8 @@
 .hwelcome-container{
     background-color: #000D1B;
     max-width: 100vw;
-    min-height: 80vh;
+    min-height: 100vh;
+    height: max-content;
     display: flex;
     align-items: center;
     justify-content: center;

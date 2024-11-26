@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import './styles/index.css';
 import Hackathon from './pages/Hackathon';
 import Team from './pages/Team';
@@ -8,9 +8,13 @@ import Event from './pages/Event';
 import Navbar from './containers/Navbar';
 import * as serviceWorker from './serviceWorker';
 import {BrowserRouter, Routes, Route} from "react-router-dom";
+const domNode = document.getElementById('root');
+const root = createRoot(domNode);
+root.render(<App />);
+serviceWorker.register();
 
-ReactDOM.render(
-    <>
+function App() {
+    return <>
         <Navbar />
         <BrowserRouter>
             <Routes>
@@ -20,7 +24,5 @@ ReactDOM.render(
                 <Route path = "/Event" element = {<Event />} />
             </Routes>
         </BrowserRouter>
-    </>
-    , document.getElementById("root"))
-    
-serviceWorker.register();
+    </>;
+}
