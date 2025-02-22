@@ -160,7 +160,7 @@ export default function Highlight() {
     return (
         <div className="highlight-container">
             <div className="event-logo">
-                <img src="images/welcome/pharma2025_transparent.png" alt="Event Logo" className="logo" />
+                <img src="images/welcome/pharma2025.png" alt="Event Logo" className="logo" />
             </div>
             <div className="media-container">
                 <div className="video-container">
