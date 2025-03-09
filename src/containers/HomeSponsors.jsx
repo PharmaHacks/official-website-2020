@@ -20,48 +20,41 @@ export default class HomeSponsors extends React.Component {
             <div className="year-titles">Current Sponsors</div>
             <div className="sponsor-logo-grid">
               {/* Current Sponsors Links */}
-              <a href="https://www.mcgill.ca/pharma/" target="_blank" rel="noopener noreferrer">
-                <PreviousSponsor logo="mcgillPharma.png" name="McGill Pharma" />
+              <a href="https://www.admarebio.com/en/" target="_blank" rel="noopener noreferrer">
+                <CurrentSponsor logo="admare.svg" name="adMare BioInnovations" />
+              </a>
+              <a href="https://district3.co" target="_blank" rel="noopener noreferrer">
+                <PreviousSponsor logo="district.png" name="District 3" />
               </a>
 
-              <a href="https://www.mcgill.ca/science/" target="_blank" rel="noopener noreferrer">
-                <PreviousSponsor logo="mcg_fac_science_rgb_red_ver_en-removebg-preview.png" name="McGill Science" />
+              <a href="https://www.dominos.ca" target="_blank" rel="noopener noreferrer">
+                <PreviousSponsor logo="dominos.png" name="Domino's" />
               </a>
 
-              <a href="https://www.mcgill.ca/epi-biostat-occh/" target="_blank" rel="noopener noreferrer">
-                <PreviousSponsor logo="McGill-EBOH-logo-removebg-preview.png" name="McGill EBOH" />
+              <a href="https://susmcgill.ca" target="_blank" rel="noopener noreferrer">
+                <PreviousSponsor logo="sus.png" name="SUS" />
               </a>
 
-              <a href="https://www.wolframalpha.com/" target="_blank" rel="noopener noreferrer">
-                <PreviousSponsor logo="wolfram-corporate-logo-stacked-med-removebg-preview.png" name="wOLFRAM" />
+              <a href="https://ssmu.ca" target="_blank" rel="noopener noreferrer">
+                <PreviousSponsor logo="ssmu.png" name="SSMU" />
               </a>
-              <a href="https://susmcgill.ca/" target="_blank" rel="noopener noreferrer">
-                <PreviousSponsor logo="SUSLogoFiles_BlackLong-removebg-preview.png" name="SUS" />
+
+              <a href="https://poulet-rouge.com" target="_blank" rel="noopener noreferrer">
+                <PreviousSponsor logo="poulet_rouge.png" name="Poulet Rouge" />
               </a>
-              <a href="https://ssmu.ca/" target="_blank" rel="noopener noreferrer">
-                <PreviousSponsor logo="Logo-SSMU-Transparency-English-2013-2014-removebg-preview.png" name="SSMU" />
+
+              <a href="https://www.mcgill.ca/pharma" target="_blank" rel="noopener noreferrer">
+                <PreviousSponsor logo="pharma_mcgill.jpg" name="McGill Pharma" />
               </a>
-              <a href="https://www.mcgill.ca/oss/" target="_blank" rel="noopener noreferrer">
-                <PreviousSponsor logo="normalDownload-removebg-preview.png" name="OSS" />
+
+              <a href="https://www.molecularforecaster.com" target="_blank" rel="noopener noreferrer">
+                <PreviousSponsor logo="mfi_logo.png" name="Molecular Forecaster" />
               </a>
-              <a href="https://district3.co/" target="_blank" rel="noopener noreferrer">
-                <PreviousSponsor logo="AHClvILvRZA1AAAAAElFTkSuQmCC-removebg-preview.png" name="D3" />
+
+              <a href="https://www.mcgill.ca" target="_blank" rel="noopener noreferrer">
+                <PreviousSponsor logo="large_mcgill.png" name="McGill" />
               </a>
-              <a href="https://dana.dexterra.com/" target="_blank" rel="noopener noreferrer">
-                <PreviousSponsor logo="MKT-IFM-DECAL010-Dana_Hospitality_Logo-Colour-Orange_1-removebg-preview.png" name="DANA" />
-              </a>
-              <a href="https://www.memrizz.com/" target="_blank" rel="noopener noreferrer">
-                <PreviousSponsor logo="image-removebg-preview.png" name="MEM" />
-              </a>
-              <a href="https://www.mcgill.ca/neurology-neurosurgery/research/douglas-mental-health-university-institute" target="_blank" rel="noopener noreferrer">
-                <PreviousSponsor logo="logo-douglas40_0-removebg-preview.png" name="DOUG" />
-              </a>
-              <a href="http://www.aebinum.umontreal.ca/" target="_blank" rel="noopener noreferrer">
-                <PreviousSponsor logo="Messages_Image3267879898.jpeg" name="AEB" />
-              </a>
-              <a href="https://www.chefoncalldelivery.com/" target="_blank" rel="noopener noreferrer">
-                <PreviousSponsor logo="logo-chef-on-call-removebg-preview.png" name="COC" />
-              </a>
+
               
               {/* ... Add more CurrentSponsor components as needed ... */}
             </div>
@@ -71,9 +64,7 @@ export default class HomeSponsors extends React.Component {
             <div className="year-titles">Previous Sponsors</div>
             <div className="sponsor-logo-grid">
               {/* Previous Sponsors Links */}
-              <a href="https://www.admarebio.com/en/" target="_blank" rel="noopener noreferrer">
-                <CurrentSponsor logo="admare.svg" name="adMare BioInnovations" />
-              </a>
+          
               <a href="https://www.pfizer.com" target="_blank" rel="noopener noreferrer">
                 <CurrentSponsor logo="pfizer.png" name="Pfizer" />
               </a>
