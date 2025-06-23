@@ -7,7 +7,7 @@ export default class About extends React.Component{
     render(){return(
         <div className="about-container" id="about">
             <div className="a-backdrop">
-                Pharmahacks
+               
             </div>
             <div className="a-intro">
                 <BlobCell />

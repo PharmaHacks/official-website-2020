@@ -12,7 +12,7 @@ export default class FAQ extends React.Component{
             <AccordionItem title={"Who is this event for?"} text={"Students from all backgrounds are welcome at PharmaHacks. No extensive knowledge of programming or biomedical sciences is necessary."} />
             <AccordionItem title={"Is the event free?"} text={"Yes! The event will be free thanks to our amazing sponsors."} />
             <AccordionItem title={"Can students from all universities participate?"} text={"Yes, PharmaHacks is open to students from all universities and CEGEPs."} />
-            <AccordionItem title={"What’s the duration of the event?"} text={"The event will be during the weekend of March 16-17, 2024. "} />
+            <AccordionItem title={"What’s the duration of the event?"} text={"The event is two days long starting on a Saturday and ending on a Sunday."} />
             <AccordionItem title={"Will there be prizes?"} text={"Yes!"} />
 
             <div className="faq-additional">Don't see your question? Ask us <a href="https://www.m.me/StudentPharma" target="_blank" rel="noopener noreferrer">here</a></div>

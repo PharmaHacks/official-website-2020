@@ -6,7 +6,7 @@ import '../styles/Members.css';
 export default class Members extends React.Component{
     render(){return(
         <div>
-            <div className='members=container'>
+            <div className='members-container'>
                 <div className='m-prez'>
                     <div className='m-committees'><span>Pharmahacks President</span></div>  
                     <div className='m-prezImg'>
@@ -60,6 +60,7 @@ export default class Members extends React.Component{
                     <Member img="2024_members/Ozhan.png" n="Ozhan Dehghani" position="VP Machine Learning" field="M1 Neuro AI" className="vp-border"/>
                     <Member img="2024_members/Leila.png" n="Leila Daoud" position="ML & Sponsorship Liason" field="U0 Mechanical Engineering" className="non-vp-border"/>
                     <Member img="2024_members/Aymen.png" n="Aymen Boustani" position="Machine Learning" field="U4 Mechanical Engineering, Minor Applied AI"className="non-vp-border"/>
+                    <Member img="2024_members/Dev.png" n="Dev Patel" position="Machine Learning" field="Computer Science Graduate"className="non-vp-border"/>
                     </div>
                     <div className='m-committees'><span>Web Development</span></div> 
                     <div className='m-list'>
