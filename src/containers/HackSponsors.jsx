@@ -11,8 +11,8 @@ export default class HackSponsors extends React.Component{
               <div className='ha-sponsors-background'>
                 <div className="ha-sponsors-text">
                     <span className="ha-sponsors-title">Sponsors</span>
-                    <div className="ha-sponsors-details">Our events are made possible thanks to sponsors. As a sponsor, you’ll have the opportunity to present a challenge, have your own sponsorship booth, host workshops, and/or recruit talented individuals. We offer a platform where sponsors can observe first hand the growth of our participants throughout the weekend and recruit exceptional hackers.
-                      <span> If you want to support us and bring students together for this year’s hackathon, check out our packages</span> <a href = "/Sponsorship_package_pharmahacks2023.pdf" target="_blank" rel="noopener noreferrer">here.</a>
+                    <div className="ha-sponsors-details">Our events are made possible thanks to sponsors. As a sponsor, you'll have the opportunity to present a challenge, have your own sponsorship booth, host workshops, and/or recruit talented individuals. We offer a platform where sponsors can observe first hand the growth of our participants throughout the weekend and recruit exceptional hackers.
+                      <span> If you want to support us and bring students together for this year's hackathon, check out our packages</span> <a href = "/sponsor.pdf" target="_blank" rel="noopener noreferrer">here.</a>
                     </div>
                 </div>
                 <div className="ha-individual-sponsor">
@@ -52,7 +52,7 @@ export default class HackSponsors extends React.Component{
                       <Sponsor  year="2024" logo="logo-douglas40_0-removebg-preview.png"/>
                     </a>
                     <a href="http://www.aebinum.umontreal.ca/" target="_blank" rel="noopener noreferrer">
-                      <Sponsor  year="2024" logo="Messages_Image3267879898.jpeg"/>
+                      <Sponsor  year="2024" logo="Messages_Image3267879898.jpeg" name="AEBINUM"/>
                     </a>
                     <a href="https://www.chefoncalldelivery.com/" target="_blank" rel="noopener noreferrer">
                       <Sponsor  year="2024" logo="logo-chef-on-call-removebg-preview.png"/>
