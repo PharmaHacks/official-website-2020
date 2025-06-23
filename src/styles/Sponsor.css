@@ -72,9 +72,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px;
+    overflow: hidden;
   }
   .sponsor-image > img {
     max-width: 75%;
+    max-height: 75%;
+    width: auto !important;
+    height: auto !important;
+    object-fit: contain;
+  }
+  /* Special handling for the AEBINUM image */
+  .sponsor-image > img[src*="Messages_Image3267879898.jpeg"] {
+    max-width: 70%;
+    max-height: 70%;
+    object-position: center;
   }
   
   

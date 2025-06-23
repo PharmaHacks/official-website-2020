@@ -6,6 +6,7 @@
 .tickerShell {
   align-self: stretch;
   display: flex;
+  margin-top: 120px;
   /* border: 1px solid white; */
   padding: 60px;
   justify-content: center;
